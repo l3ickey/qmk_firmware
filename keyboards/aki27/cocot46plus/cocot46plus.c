@@ -25,17 +25,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 #ifndef COCOT_CPI_OPTIONS
-#    define COCOT_CPI_OPTIONS { 250, 500, 750, 1000, 1250 }
+//#    define COCOT_CPI_OPTIONS { 250, 500, 750, 1000, 1250 }
+#    define COCOT_CPI_OPTIONS { 250, 1250 }
 #endif
 #ifndef COCOT_CPI_DEFAULT
-#    define COCOT_CPI_DEFAULT 4
+#    define COCOT_CPI_DEFAULT 1
 #endif
 
 #ifndef COCOT_SCROLL_DIVIDERS
 #    define COCOT_SCROLL_DIVIDERS { 1, 2, 3, 4, 5, 6 }
 #endif
 #ifndef COCOT_SCROLL_DIV_DEFAULT
-#    define COCOT_SCROLL_DIV_DEFAULT 4
+#    define COCOT_SCROLL_DIV_DEFAULT 5
 #endif
 
 
@@ -43,7 +44,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #    define COCOT_ROTATION_ANGLE { -60, -45, -30, -15, 0, 15, 30, 45, 60 }
 #endif
 #ifndef COCOT_ROTATION_DEFAULT
-#    define COCOT_ROTATION_DEFAULT 2
+#    define COCOT_ROTATION_DEFAULT 5
 #endif
 
 
